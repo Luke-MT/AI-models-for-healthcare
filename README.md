@@ -12,12 +12,12 @@ Performance evaluation across different metrics (ROC-AUC, Accuracy, F1-Score)
 The preprocessing pipeline includes several key steps:
 
 ### Data Splitting
-Separation of baseline and treatment data
+Separation of baseline and treatment data  
 Creation of cycle-specific datasets
 
 ### Data Cleaning
-Removal of columns with >80% missing values
-Outlier detection and handling using IQR method
+Removal of columns with >80% missing values  
+Outlier detection and handling using IQR method  
 Missing value imputation using KNN with k=3
 
 
@@ -25,27 +25,27 @@ Missing value imputation using KNN with k=3
 Five different models were evaluated:
 
 ### Decision Tree
-Best performance in cycle 0 (97% accuracy)
+Best performance in cycle 0 (97% accuracy),
 Consistent performance across later cycles (60-76% accuracy)
 
 
 ### Random Forest
-Highest overall performance
-Peak accuracy of 98.7% in cycle 0
+Highest overall performance  
+Peak accuracy of 98.7% in cycle 0,
 Maintained 65-85% accuracy in later cycles
 
 
 ### XGBoost
-Strong initial performance (98.3% accuracy in cycle 0)
+Strong initial performance (98.3% accuracy in cycle 0),
 Stable performance in later cycles (64-85% accuracy)
 
 
 ### Histogram-based Gradient Boosting
-Comparable performance to XGBoost
-Best accuracy of 98.3% in cycle 0
+Comparable performance to XGBoost,
+Best accuracy of 98.3% in cycle 0,
 Maintained 63-85% accuracy across cycles
 
 
 ### KNN
-Lower performance compared to tree-based models
+Lower performance compared to tree-based models,
 Accuracy range of 52-95% across cycles
