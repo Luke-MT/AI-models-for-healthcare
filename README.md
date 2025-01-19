@@ -3,9 +3,9 @@ This project implements machine learning models to predict haematological toxici
 
 ### Features
 
-Multiple machine learning models comparison (Decision Trees, Random Forest, XGBoost, Histogram-based Gradient Boosting, KNN)
-Treatment cycle-specific predictions
-Extensive data preprocessing pipeline
+Multiple machine learning models comparison (Decision Trees, Random Forest, XGBoost, Histogram-based Gradient Boosting, KNN)  
+Treatment cycle-specific predictions  
+Extensive data preprocessing pipeline  
 Performance evaluation across different metrics (ROC-AUC, Accuracy, F1-Score)
 
 ### Data Preprocessing
