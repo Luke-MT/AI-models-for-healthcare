@@ -1,5 +1,4 @@
 # Haematological Toxicity Prediction Model for Clinical Trial Patients
-Project Overview
 This project implements machine learning models to predict haematological toxicity in patients undergoing medical treatment. The analysis uses a comprehensive dataset of patient records, treatment cycles, and various clinical parameters to build predictive models.
 
 ### Features
