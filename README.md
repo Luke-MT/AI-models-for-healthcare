@@ -1,24 +1,30 @@
 # Haematological Toxicity Prediction Model for Clinical Trial Patients
-This project implements machine learning models to predict haematological toxicity in patients undergoing medical treatment. The analysis uses a comprehensive dataset of patient records, treatment cycles, and various clinical parameters to build predictive models.
+This project implements machine learning models to predict haematological toxicity in patients undergoing medical treatment.  
+The analysis uses a comprehensive dataset of patient records, treatment cycles, and various clinical parameters to build predictive models.
 
 ### Features
 
-Multiple machine learning models comparison (Decision Trees, Random Forest, XGBoost, Histogram-based Gradient Boosting, KNN)  
-Treatment cycle-specific predictions  
-Extensive data preprocessing pipeline  
-Performance evaluation across different metrics (ROC-AUC, Accuracy, F1-Score)
+-Multiple machine learning models comparison:
+  -Decision Trees
+  -Random Forest
+  -XGBoost
+  -Histogram Gradient Boosting
+  -KNN  
+-Treatment cycle-specific predictions  
+-Extensive data preprocessing pipeline  
+-Performance evaluation across different metrics (ROC-AUC, Accuracy, F1-Score)
 
 ### Data Preprocessing
 The preprocessing pipeline includes several key steps:
 
 ### Data Splitting
-Separation of baseline and treatment data  
-Creation of cycle-specific datasets
+-Separation of baseline and treatment data  
+-Creation of cycle-specific datasets
 
 ### Data Cleaning
-Removal of columns with >80% missing values  
-Outlier detection and handling using IQR method  
-Missing value imputation using KNN with k=3
+-Removal of columns with >80% missing values  
+-Outlier detection and handling using IQR method  
+-Missing value imputation using KNN with k=3
 
 
 # Models and Performance
