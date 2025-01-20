@@ -28,7 +28,6 @@ The preprocessing pipeline includes several key steps:
 
 
 # Models and Performance
-Five different models were evaluated:
 
 ### Decision Tree
 Best performance in cycle 0 (97% accuracy),
